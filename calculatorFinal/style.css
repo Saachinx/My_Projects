@@ -1,0 +1,45 @@
+body{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  height:100%;
+
+}
+
+
+html{
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+
+.body{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  width:15em;
+  height:20em;
+
+}
+
+
+.button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1B2935;
+  color:white;
+}
+
+#display{
+  display:grid;
+  display:flex;
+  align-items: center;
+  padding:.5em;
+  grid-area:1/1/1/span 4;
+  border:1px solid black;
+}
+
+.button:hover{
+  background-color: #0F1F2C;
+}
